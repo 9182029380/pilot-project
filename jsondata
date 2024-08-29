@@ -1,0 +1,67 @@
+{
+  "setName": "GCP Migration",
+  "domain": "Cloud Computing",
+  "createdby": "Alice Johnson",
+  "approvedby": "Bob Lee",
+  "questions": [
+    {
+      "description": "What are the main advantages of migrating to GCP?",
+      "answers": [
+        {
+          "value": "Global Network",
+          "suggestion": "GCP offers a global network with high availability and low latency, ideal for global workloads."
+        },
+        {
+          "value": "Security",
+          "suggestion": "GCP provides robust security features, including encryption, identity management, and compliance certifications."
+        },
+        {
+          "value": "Machine Learning and AI",
+          "suggestion": "GCP offers advanced AI and machine learning services to enhance business operations and decision-making."
+        }
+      ]
+    },
+    {
+      "description": "What are the typical steps involved in a GCP migration?",
+      "answers": [
+        {
+          "value": "Assessment",
+          "suggestion": "Assess the current IT environment and determine the scope of the migration."
+        },
+        {
+          "value": "Planning",
+          "suggestion": "Create a migration plan, including timelines, resources, and risk management strategies."
+        },
+        {
+          "value": "Migration",
+          "suggestion": "Execute the migration plan, moving data, applications, and workloads to GCP."
+        },
+        {
+          "value": "Optimization",
+          "suggestion": "Optimize the GCP environment for performance, cost efficiency, and security."
+        }
+      ]
+    },
+    {
+      "description": "Which GCP services are commonly used during cloud migration?",
+      "answers": [
+        {
+          "value": "Google Compute Engine",
+          "suggestion": "Google Compute Engine provides scalable virtual machines for various workloads."
+        },
+        {
+          "value": "Google Cloud Storage",
+          "suggestion": "Google Cloud Storage offers highly durable object storage for various data types."
+        },
+        {
+          "value": "Google Cloud VPN",
+          "suggestion": "Google Cloud VPN connects on-premises networks securely to GCP via an IPsec VPN."
+        },
+        {
+          "value": "Google Kubernetes Engine",
+          "suggestion": "Google Kubernetes Engine (GKE) provides managed Kubernetes clusters for containerized applications."
+        }
+      ]
+    }
+  ]
+}
