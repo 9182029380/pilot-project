@@ -89,7 +89,9 @@
 					</excludes>
 				</configuration>
 			</plugin>
+
 		</plugins>
+		<finalName>assessment-service</finalName>
 	</build>
 
 </project>
