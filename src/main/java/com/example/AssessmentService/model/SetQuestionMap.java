@@ -1,5 +1,6 @@
 package com.example.AssessmentService.model;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 import lombok.Data;
 import java.time.LocalDateTime;
@@ -15,10 +16,12 @@ public class SetQuestionMap {
 
     @ManyToOne
     @JoinColumn(name = "set_id")
+    @JsonBackReference
     private Assessment assessment;
 
     @ManyToOne
     @JoinColumn(name = "question_id")
+    @JsonBackReference
     private Question question;
 
     @Column(name = "created_date")

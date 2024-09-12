@@ -1,5 +1,6 @@
 package com.example.AssessmentService.model;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import lombok.Data;
 
 import jakarta.persistence.*;
@@ -19,8 +20,10 @@ public class Question {
     private String description;
 
     @OneToMany(mappedBy = "question", cascade = CascadeType.ALL)
+    @JsonManagedReference
     private List<Answer> answers;
 
     @OneToMany(mappedBy = "question", cascade = CascadeType.ALL)
+    @JsonManagedReference
     private List<SetQuestionMap> setQuestionMaps;
 }
